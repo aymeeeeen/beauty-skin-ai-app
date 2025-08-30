@@ -3,13 +3,12 @@ import { Routes, Route, Link } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute";
 import Dashboard from "./Dashboard";
 import Login from "./Login";
-import Signup from ".Signup.js";
+import Signup from "./Signup";
 import UploadAndAnalyze from "./UploadAndAnalyze";
 
 function Home() {
   return <h2>Welcome to Beauty Skin AI App</h2>;
 }
-
 function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
